@@ -1,0 +1,12 @@
+.desciption{ 
+    display: flex;
+    align-items: center;
+    color: black;
+    gap: 20px;
+}
+
+h6 {
+    color: black;
+    font-size: 14px;
+
+}

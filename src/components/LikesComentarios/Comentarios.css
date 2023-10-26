@@ -1,0 +1,17 @@
+.fake-comment {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  
+  .fake-comment input {
+    font-size: 14px;
+    border: none;
+  }
+  
+  .fake-comment input:focus {
+    outline: none; 
+  }
+  

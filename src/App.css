@@ -1,0 +1,180 @@
+#root {
+  max-width: 1280px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  
+}
+
+.paginas {
+    display: flex;
+    gap: 2px;
+}
+
+
+nav ul{
+ display: flex;
+ flex-direction: column;
+ place-content: center;
+ list-style: none;
+}
+
+nav ul li{
+   list-style: none;
+}
+
+.Principal {
+  width: 300px;
+  display: flex;
+  position: sticky;
+  top: 0; /* Ajusta la posición superior para que el elemento quede pegado en la parte superior */
+  height: 100vh; /* Esto asegura que el elemento ocupe toda la altura del viewport */
+}
+
+
+ul {
+display: flex;
+flex-direction: column;
+}
+
+li {
+list-style: none;
+}
+
+.logo {
+margin: 20px 0 20px -20px;
+width: 140px;
+}
+.Navlink {
+display: flex;
+margin: 0px 0 0 -20px;
+border-radius: 11px;
+justify-content: flex-start;
+width: 250px;
+height: 50px;
+gap: 20px;
+color: black;
+text-decoration: none;
+font-size: 17px;
+align-items: center;
+}
+
+.Navlink img {
+width: 30px;
+height: 30px;
+}
+
+.Navlink:hover {
+background-color: #f2f2f2;
+}
+
+.is-active {
+display: flex;
+font-size: 17px;
+font-weight: bolder;
+margin: 0px 0 0 -20px;
+justify-content: flex-start;
+width: 250px;
+height: 50px;
+gap: 20px;
+color: black;
+text-decoration: none;
+font-size: 17px;
+align-items: center;
+}
+
+.is-active img {
+width: 30px;
+height: 30px;
+}
+
+.NavlinkPlus {
+display: flex;
+margin: 30px 0 0 -20px;
+border-radius: 11px;
+justify-content: flex-start;
+width: 250px;
+height: 50px;
+gap: 20px;
+color: black;
+text-decoration: none;
+font-size: 17px;
+align-items: center;
+}
+
+.isActivePlus {
+display: flex;
+margin: 30px 0 0 -20px;
+border-radius: 11px;
+font-weight: bolder;
+justify-content: flex-start;
+width: 250px;
+height: 50px;
+gap: 20px;
+color: black;
+text-decoration: none;
+font-size: 17px;
+align-items: center;
+}
+.isActivePlus img {
+width: 30px;
+height: 30px;
+}
+
+.NavlinkPlus img {
+width: 30px;
+height: 30px;
+}
+
+.linea-vertical {
+border-left: 2px solid #dbdbdb; /* Ancho y color de la línea vertical */
+height: 100%; /* Establece la altura para que la línea cubra todo el contenedor */
+margin-left: 0; /* Espacio entre la línea y el contenido */
+margin-right: 20px; /* Espacio entre la línea y el contenido */
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.thumbnail{
+  width: 500px;
+}
+
+.thumbnail:hover{
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.thumbnail img{
+  width: 100%;
+}
+
+.publicacion{
+  display: flex;
+  flex-direction: column;
+}
+.galeria{
+  display: flex;
+  gap: 20px;
+  margin-left: 60px;
+}
+
+.line-horizontal{
+  border: 0.5px gray solid; 
+  width: 500px;
+
+}
+
+.Botones-Perfil{
+  background-color: #DBDBDB;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: bold;
+}
+

@@ -1,0 +1,18 @@
+button{
+  border: none;
+  background-color: transparent;
+}
+
+button img {
+  width: 30px;
+}
+
+.reacciones{
+  display: flex;
+  justify-content: space-between;
+}
+
+button:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}

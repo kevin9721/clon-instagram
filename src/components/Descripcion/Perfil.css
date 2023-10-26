@@ -1,0 +1,18 @@
+.perfil {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    gap: 5px;
+}
+
+.perfil img {
+    width: 60px;
+    height: 60px;
+    border-radius: 80%;
+}
+.Perfil-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
